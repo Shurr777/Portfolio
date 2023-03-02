@@ -1,0 +1,27 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@300;400;600;800&display=swap');
+
+/*
+font-family: 'DM Sans', sans-serif;
+
+font-family: 'Montserrat', sans-serif;
+*/
+
+html, body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+/*---NavBlock---*/
+
+.container{
+    padding: 0 15px;
+    width: 1170px;
+
+}
+
+.nav {
+    padding: 20px 0;
+    background-color: #171718;
+    color: white;
+    border-bottom: 2px solid #26292d;
+}
