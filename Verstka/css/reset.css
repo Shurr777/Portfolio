@@ -1,0 +1,24 @@
+/*Reset and base styles*/
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+:focus,
+:active{
+
+}
+
+a,
+li{
+    text-decoration: none;
+    list-style: none;
+}

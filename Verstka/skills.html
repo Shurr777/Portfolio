@@ -8,68 +8,42 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Portfolio</title>
 </head>
-
-
 <body>
+
 <nav class="nav">
     <div class="container">
         <div class="nav_row">
             <a href="./index.html" class="logo">
                 <strong>Freelancer</strong> Logo
             </a>
-
             <button class="dark-mode-btn">
                 <img src="./img/icons/Sun.svg" alt="Light mode" class="dark-mode-btn__icon">
                 <img src="./img/icons/Moon.svg" alt="Dark mode" class="dark-mode-btn__icon">
             </button>
-
             <ul class="navlist">
-                <li class="navlist__item"><a class="navlist__link "
-                                             href="./project-page.html">Projects</a></li>
-                <li class="navlist__item"><a class="navlist__link" href="./skills.html">Skills</a></li>
+                <li class="navlist__item">
+                    <a class="navlist__link" href="./project-page.html">Projects</a>
+                </li>
+                <li class="navlist__item">
+                    <a class="navlist__link navlist__link--active" href="./skills.html">Skills</a>
+                </li>
                 <li class="navlist__item"><a class="navlist__link" href="./contacts.html">Contacts</a></li>
             </ul>
-
         </div>
     </div>
 </nav>
 
-<header class="header">
-    <div class="header_wrapper">
-        <h1 class="header_title">
-            <strong>Hi, my name is <em>Aleks</em></strong><br/>
-            a frontend developer
-        </h1>
-        <div class="header_text">
-            <p>
-                with passion for learning and creating.
-            </p>
-        </div>
-        <a href="#!" class="btn">Download CV</a>
-    </div>
-</header>
-
 <main class="section">
     <div class="container">
-        <h2 class="title1">Projects</h2>
-        <ul class="projects">
-            <li class="project">
-                <a href="#!">
-                    <img src="./img/projects/Cherry.png" alt="Cherry project" class="project__image">
-                    <h3 class="project__title">Cherry</h3>
-                </a>
+        <h1 class="title1">Skills</h1>
+        <ul class="content-list">
+            <li class="content-list__item">
+                <h2 class="title2">Frontend</h2>
+                <p>JavaScript, React.js, Redux, HTML, CSS, Bootstrap, Ajax, Styled-component,</p>
             </li>
-            <li class="project">
-                <a href="http://grants.warm.if.ua">
-                    <img src="./img/projects/grants.png" alt="Cherry project" class="project__image">
-                    <h3 class="project__title">Grants</h3>
-                </a>
-            </li>
-            <li class="project">
-                <a href="https://woodluck.org.ua">
-                    <img src="./img/projects/woodluck.png" alt="Cherry project" class="project__image">
-                    <h3 class="project__title">Woodluck</h3>
-                </a>
+            <li class="content-list__item">
+                <h2 class="title2">Backend</h2>
+                <p>Base PHP, Base Laravel, Base MySQL</p>
             </li>
         </ul>
     </div>
